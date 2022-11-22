@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Programmering for Computerteknologi/Assignment12B/assignment-12-Daniel6702/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/mymath.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\mymath.dir\\src\\duration.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Programmering for Computerteknologi\\Assignment12B\\assignment-12-Daniel6702\\src\\duration.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Programmering for Computerteknologi/Assignment12B/assignment-12-Daniel6702/src/duration.cpp"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Programmering for Computerteknologi/Assignment12B/assignment-12-Daniel6702/build/tests",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\tests.dir\\src\\tests.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Programmering for Computerteknologi\\Assignment12B\\assignment-12-Daniel6702\\tests\\src\\tests.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Programmering for Computerteknologi/Assignment12B/assignment-12-Daniel6702/tests/src/tests.cpp"
+}
+]
