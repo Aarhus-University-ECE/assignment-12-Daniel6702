@@ -3,16 +3,19 @@
 
 class Duration {
     public:
-        int time;
+        
         int getDuration();
         Duration();
         Duration(int t);
         bool tick();
         bool tick(int dt);
-        int alarm;
-        bool alarmHasBeenSet;
         void setAlarm(int t);
         bool checkAndUpdateAlarm();
+    private:
+        int time;
+        int alarm;
+        bool alarmHasBeenSet;
+
 };
 
 #endif // FIB_H

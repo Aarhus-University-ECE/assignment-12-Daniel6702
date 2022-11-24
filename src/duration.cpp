@@ -13,7 +13,7 @@ int Duration::getDuration() {
 }
 
 void Duration::setAlarm(int t) {
-    assert(t > alarm);
+    assert(t > time);
     alarm = t;
     alarmHasBeenSet = true;
 }
@@ -51,18 +51,3 @@ Duration::Duration(int t) {
     alarm = 0;
     alarmHasBeenSet = false;
 }
-
-/*
-int main(int argc, char **argv) {
-    Duration timer;
-    std::cout << timer.getDuration();;
-    std::cout << "\n";
-    timer.setAlarm(2);
-
-
-
-    //std::cout << timer.getDuration();;
-
-    return 0;
-}
-*/

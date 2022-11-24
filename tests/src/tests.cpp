@@ -34,11 +34,10 @@ TEST_CASE("alarm")
 {
     Duration timer;
     timer.setAlarm(10);
-    REQUIRE(timer.alarm == 10);
-    REQUIRE(timer.alarmHasBeenSet == true);
     REQUIRE(timer.tick() == false);
+    REQUIRE(timer.checkAndUpdateAlarm() == false);
     REQUIRE(timer.tick(10) == true);
-    REQUIRE(timer.alarmHasBeenSet == false);
+    REQUIRE(timer.tick() == false);
 }
 
 
